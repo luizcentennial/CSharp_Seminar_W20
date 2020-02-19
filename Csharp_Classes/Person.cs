@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Csharp_Classes {
+namespace Classes_Part_01 {
 	public class Person {
+		// FIELDS
+		// This exists on its own. It is its own thing, independent of objects.
+		private static int COUNTER_ID = 0;
+
 		// PROPERTIES
 		// Properties are usually public 
-
-		// This property exists on its own. It is its own thing, independent of objects.
-		public static int COUNTER_ID { get; set; } = 0;
-
 		// The properties below exist within each object
 		public int PersonID { get; private set; }
 		public string Name { get; set; } // get means retrieve, and set means define.

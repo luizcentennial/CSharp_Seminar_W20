@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Csharp_Classes {
+namespace Classes_Part_01 {
 	class Program {
 		static void Main(string[] args) {
 			// I can use my class here.

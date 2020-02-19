@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Recap_Loops", "Cshar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Recap_Collections", "Csharp_Recap_Collections\Csharp_Recap_Collections.csproj", "{F835EF1D-2267-4C85-B1B2-B22B2607526A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Classes", "Csharp_Classes\Csharp_Classes.csproj", "{3F83C392-2AE6-4AA9-BDD9-FDEC13666701}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Part_01", "Csharp_Classes\Classes_Part_01.csproj", "{3F83C392-2AE6-4AA9-BDD9-FDEC13666701}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_Exercise_01", "Practice\Practice_Exercise_01.csproj", "{CF11AFDC-44DB-4E34-B946-4A2B392887A6}"
 EndProject
