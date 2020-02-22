@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF11AFDC-44DB-4E34-B946-4A2B392887A6}</ProjectGuid>
+    <ProjectGuid>{0EC19264-19A4-4A3D-8D84-DD3A97F2C0E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practice</RootNamespace>
-    <AssemblyName>Practice</AssemblyName>
+    <RootNamespace>Practice_Exercise_02</RootNamespace>
+    <AssemblyName>Practice_Exercise_02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Practice_Exercise_01_Domain\Practice_Exercise_01_Domain.csproj">
-      <Project>{e4e9ccd1-9e80-48b3-bff8-abfebdf71408}</Project>
-      <Name>Practice_Exercise_01_Domain</Name>
+    <ProjectReference Include="..\Practice_Exercise_02_Domain\Practice_Exercise_02_Domain.csproj">
+      <Project>{46615f1a-083b-4b09-a900-ec83f5684e37}</Project>
+      <Name>Practice_Exercise_02_Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

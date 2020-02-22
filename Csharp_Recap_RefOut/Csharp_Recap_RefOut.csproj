@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF11AFDC-44DB-4E34-B946-4A2B392887A6}</ProjectGuid>
+    <ProjectGuid>{84AD6A7E-875C-4795-9422-44E82263338B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practice</RootNamespace>
-    <AssemblyName>Practice</AssemblyName>
+    <RootNamespace>Csharp_Recap_RefOut</RootNamespace>
+    <AssemblyName>Csharp_Recap_RefOut</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Practice_Exercise_01_Domain\Practice_Exercise_01_Domain.csproj">
-      <Project>{e4e9ccd1-9e80-48b3-bff8-abfebdf71408}</Project>
-      <Name>Practice_Exercise_01_Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

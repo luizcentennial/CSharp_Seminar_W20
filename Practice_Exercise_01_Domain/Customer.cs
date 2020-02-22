@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice.Domain {
+namespace Exercise_01.Domain {
 	public class Customer {
-		// FIELD
+		// FIELDS
 		private static int ID = 1;
 
 		// PROPERTIES
@@ -14,17 +14,23 @@ namespace Practice.Domain {
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
 		public DateTime DateOfBirth { get; set; }
+		public Address Address { get; set; }
 
 		// CONSTRUCTOR
-		public Customer() {
+		public Customer(Address address) {
 			CustomerID = ID;
+			Address = address;
 
 			ID++;
 		}
 
 		// METHODS
 		public override string ToString() {
-			return $"Customer ID: {CustomerID} \nFirst Name: {FirstName} \nLast Name: {LastName} \nDate Of Birth: {DateOfBirth}";
+			return	$"Customer ID: {CustomerID} \n" +
+					$"First Name: {FirstName} \n" +
+					$"Last Name: {LastName} \n" +
+					$"Date Of Birth: {DateOfBirth} \n" +
+					$"Address: {Address} \n";
 		}
 	}
 }
