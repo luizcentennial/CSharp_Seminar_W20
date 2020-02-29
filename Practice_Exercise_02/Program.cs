@@ -15,7 +15,7 @@ namespace Practice_Exercise_02 {
 			Create the necessary classes, with fields and properties, that allow
 			the program to handle all orders.
 
-			Classes needed:
+			Entities needed:
 			- Customer (first name, last name, phone number, email and address). Use struct.
 			- Pizza (size, toppings, price). Use Enum.
 			- Order (order total, customer, one or more pizzas, date placed, date delivered, 
