@@ -60,7 +60,7 @@ namespace Practice_Exercise_02 {
 			// Creating order
 			Order order = new Order(customer);
 			order.AddItem(pizza1);
-			order.AddItem(pizza2);
+			order.AddItem(pizza2, 3);
 
 			// Delivering the order
 			Thread.Sleep(1000);
